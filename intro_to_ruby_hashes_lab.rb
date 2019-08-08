@@ -39,8 +39,11 @@ def read_from_hash = {
   read_from_hash
 end
 
-def update_counting_hash(hash, key)
-  # given a hash an a key as parameters, return an updated hash
-  # if the provided key is not present in the hash, add it and assign it to the value of 1
-  # if the provided key is present, increment its value by 1
+def update_counting_hash = { 
+  "hash" => 12,
+  "tanya" => 20
+}
+update_counting_hash["tanya"] += 1
+update_counting_hash["cookie"] =+ 1
+ 
 end
