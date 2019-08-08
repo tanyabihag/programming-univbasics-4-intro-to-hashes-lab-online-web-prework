@@ -19,7 +19,10 @@ def pioneer = {
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
-def id_generator
+def id_generator = {
+  id: 2 
+}
+id_generator[:id]
   # return a hash with a key :id assigned to positive integer
 end
 
