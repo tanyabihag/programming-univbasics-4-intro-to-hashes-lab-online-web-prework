@@ -16,18 +16,20 @@ def pioneer = {
   name: "Grace Hopper"
 }
   pioneer[:name]
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
 def id_generator = {
   id: 2 
 }
 id_generator[:id]
-  # return a hash with a key :id assigned to positive integer
+ 
 end
 
-def my_hash_creator(key, value)
-  
+def my_hash_creator = {
+  key: "key",
+  value: "value"
+}
+ my_hash_creator 
   # return a hash that includes the key and value parameters passed into this method
 end
 
