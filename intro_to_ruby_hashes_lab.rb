@@ -1,5 +1,8 @@
-def new_hash
-  
+def new_hash = {
+  name : "Sam",
+  age : 31
+}
+  new_hash[:gender]
 end
 
 def my_hash
