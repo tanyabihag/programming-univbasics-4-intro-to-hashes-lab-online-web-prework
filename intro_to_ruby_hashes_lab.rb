@@ -5,8 +5,11 @@ def new_hash = {
   new_hash[:gender]
 end
 
-def my_hash
-  # return a valid hash with any key/value pair of your choice
+def my_hash = {
+    name: "Sam"
+    age: 10 
+}
+ my_hash[:name]
 end
 
 def pioneer
