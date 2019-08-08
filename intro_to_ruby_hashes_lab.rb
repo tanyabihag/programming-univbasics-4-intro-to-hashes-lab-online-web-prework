@@ -12,7 +12,10 @@ def my_hash = {
  my_hash[:name]
 end
 
-def pioneer
+def pioneer = {
+  name: "Grace Hopper"
+}
+  pioneer[:name]
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
