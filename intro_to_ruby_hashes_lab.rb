@@ -30,11 +30,13 @@ def my_hash_creator = {
   value: "value"
 }
  my_hash_creator 
-  # return a hash that includes the key and value parameters passed into this method
 end
 
-def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+def read_from_hash = {
+  hash: "key"
+  key:
+}
+  read_from_hash
 end
 
 def update_counting_hash(hash, key)
